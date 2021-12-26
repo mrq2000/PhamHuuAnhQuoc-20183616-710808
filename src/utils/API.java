@@ -21,9 +21,9 @@ import entity.payment.CreditCard;
 import entity.payment.PaymentTransaction;
 
 /**
- * Class cung cap cac list API;
- * Date: 10/12/2021
- * @author QuocPha
+ * Class cung cap cac phuong thuc gui request len server va nhan du lieu tra ve
+ * Date: 07/12/2021
+ * @author nguyenlm
  * @version 1.0
  */
 public class API {
@@ -32,7 +32,7 @@ public class API {
 	 * Thuoc tinh nay giup format ngay thang nam theo dinh dang
 	 */
 	public static DateFormat DATE_FORMATER = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-	
+
 	/**
 	 * Thuoc tinh nay giup log ra thong tin o console
 	 */
@@ -42,7 +42,7 @@ public class API {
 	 * Phuong thuc goi cac API dang GET
 	 * @param url duong dan toi server can request
 	 * @param token doan ma bam cung cap de xac dinh thong tin nguoi dung
-	 * @return response cua server (String)
+	 * @return response cua server (o dang String)
 	 * @throws Exception
 	 */
 	public static String get(String url, String token) throws Exception {
